@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    overflow-y: hidden;
+    background-color: #eeeeee;
+    text-overflow: clip;
+}
+
+.conteudo_principal{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.bloco_1{
+    padding: 10px;
+    padding-top: 1px;
+    background-color: #00adb5;
+    height: 300px;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.bloco_1:hover{
+    background-color: #00939b;
+}
+
+.bloco_2{    
+    height: auto;
+    width: 100%;
+    max-height: auto;
+    padding: 50px;
+}
+
+.lista_cadastrados{
+    width: auto;
+    height: 120px;
+    padding: 15px;
+    background-color: #00adb5;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.lista_cadastrados:hover{
+    background-color: #00939b;
+}
+
+.titulo{
+    font-size: 5rem;
+    margin-top: 10vh;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card_custom{
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.300);
+}
+
+.titulo_custom{
+    border-bottom: 2px solid black;
+    width: 30%;
+}
+
+.remove_custom{
+    float: right;
+}
+
+.categoria_nome{
+    font-style: italic;
+}

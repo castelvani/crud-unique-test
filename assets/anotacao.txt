@@ -1,0 +1,53 @@
+<div class="col-md-4">
+    <div class="form-group">
+        <div class="lista_cadastrados">
+            <form action="">
+
+            </form>
+        </div>
+    </div>
+</div>
+//==============================================//
+<div class="col-md-4">
+    <div class="form-group">
+        <!-- <div class="lista_cadastrados"> -->
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Titulo</h5>
+                <p class="card-text">Texto aaa</p>
+                <div class="row">
+                    <div class="col-md-8">
+                        <input type="submit" class="btn btn-primary" value="Alterar">
+                    </div>
+                    <div class="col-md-4">
+                        <input type="submit" class="btn btn-danger" value="Remover">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- </div> -->
+    </div>
+</div>
+//==============================================//
+<div class="col-md-4">
+    <div class="form-group">
+        <!-- <div class="lista_cadastrados"> -->
+        <div class="card card_custom">
+            <div class="card-body">
+                <h5 class="card-title titulo_custom">Titulo</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Praesent lacinia magna ac nulla condimentum, non semper mi elementum. Vivamus tempus magna ex, vel dignissim felis pharetra vel.</p>
+                <div class="row">
+                    <div class="col-xl-8 mb-1">
+                        <input type="submit" class="btn btn-primary" value="Alterar">
+                    </div>
+                    <div class="col-xl-4">
+                        <input type="submit" class="btn btn-danger" value="Remover">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+    </div>
+</div>

@@ -1,0 +1,20 @@
+h3 {
+  text-align: center;
+}
+
+.btn_apagar {
+  color: crimson;
+}
+
+.btn_apagar:hover {
+  cursor: pointer;
+}
+
+.categoria_nula {
+  text-align: center;
+}
+.toast_mostra {
+  position: fixed;
+  z-index: 10;
+  padding: 15px;
+}

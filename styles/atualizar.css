@@ -1,0 +1,31 @@
+h3{
+    text-align: center;
+ }
+
+.submit_custom{
+    background-color: #00adb5;
+    color: white;
+    border-radius: .25em;
+}
+
+.submit_custom:hover{
+    background-color: #00939b;
+    color: white;
+    border-radius: .25em;
+    box-shadow: 0px 0px 15px 5px #00939b;
+}
+
+.tooltip_custom{
+    color: #393e46c9;
+    transition: color 0.3s;
+}
+
+.tooltip_custom:hover{
+    color: #222831;
+}
+
+.toast_mostra{
+    position: fixed;
+    z-index:10;
+    padding: 15px;
+}
